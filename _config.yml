@@ -15,3 +15,12 @@ permalink: pretty
 source: ./source
 destination: ./build
 plugins: ./plugins
+
+
+# Asset Pipeline settings
+assets:
+  sources:
+    - _assets/images
+    - _assets/javascripts
+    - _assets/stylesheets
+    - ../components

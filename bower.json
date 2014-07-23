@@ -1,0 +1,21 @@
+{
+  "name": "rhodes-corbett-wedding",
+  "version": "0.0.0",
+  "homepage": "https://github.com/CTCorbett/rhodes-corbett-wedding",
+  "authors": [
+    "Carl Henderson <chuckhendo@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1"
+  }
+}
