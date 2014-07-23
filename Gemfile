@@ -13,3 +13,6 @@ gem "sprockets-helpers"
 
 
 gem "bootstrap-sass"
+
+gem 'listen'
+gem 'rack-jekyll', :git => 'git://github.com/chuckhendo/rack-jekyll/', :branch => 'autofix'
