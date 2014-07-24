@@ -1,3 +1,10 @@
-@import "bootstrap";
+//= require _variables
+//= require bootstrap
+//= require _global
+//= require_directory .
 
 
+
+
+
+// NO CODE SHOULD GO IN THIS FILE! This is only to require in our other assets

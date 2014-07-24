@@ -24,3 +24,8 @@ assets:
     - _assets/javascripts
     - _assets/stylesheets
     - ../components
+
+
+# Content
+wedding_date: 2014-10-01
+
