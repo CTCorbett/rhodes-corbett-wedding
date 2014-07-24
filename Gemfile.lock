@@ -71,6 +71,8 @@ GEM
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
     rack (1.5.2)
+    rack-livereload (0.3.15)
+      rack
     rb-fsevent (0.9.4)
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
@@ -107,6 +109,7 @@ DEPENDENCIES
   kramdown
   listen
   rack-jekyll!
+  rack-livereload
   sass
   sprockets-helpers
   sprockets-sass
