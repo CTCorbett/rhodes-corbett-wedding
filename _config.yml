@@ -19,6 +19,7 @@ plugins: ./plugins
 
 # Asset Pipeline settings
 assets:
+  cachebust: none
   sources:
     - _assets/images
     - _assets/javascripts
