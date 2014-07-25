@@ -2,6 +2,6 @@
 	<div class="container">
 		<h1>{{ site.title }}</h1>
 		
-		<div class="countdown" data-date="{{ site.wedding_date }}"></div>
+		<div class="countdown" data-date="{{ site.wedding_date | date_to_rfc822 }}"></div>
 	</div>
 </section>

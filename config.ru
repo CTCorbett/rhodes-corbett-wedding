@@ -1,12 +1,10 @@
 require 'rubygems'
 require 'bundler'
 
-require "rack/jekyll"
-require 'rack-livereload'
-
 Bundler.require
 
+require "rack/jekyll"
+# require 'rack-livereload'
 
-
-use Rack::LiveReload, :source => :vendored
+# use Rack::LiveReload, :source => :vendored
 run Rack::Jekyll.new(:auto => true)
