@@ -3,8 +3,7 @@
 		<h2>Registry</h2>
 		{% for item in site.data.registry %}
 			<a href="{{ item.url }}" class="col-md-4">
-				<img src="{{ item.image }}" alt="{{ item.name }}">
-				<h5>{{ item.name }}</h5>
+				<img src="{{ item.image | asset_path }}" alt="{{ item.name }}" class="registry-logo">
 			</a>
 		{% endfor %}
 	</div>

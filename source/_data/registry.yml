@@ -1,12 +1,12 @@
 -
-  name: Registry One
+  name: Bed Bath &amp; Beyond
   url: http://google.com
-  image: http://placekitten.com/g/300/200
+  image: logo-bed-bath-beyond.svg
 -
-  name: Registry Two
+  name: Target
   url: http://google.com
-  image: http://placekitten.com/g/300/200
+  image: logo-target.svg
 -
-  name: Registry Three
+  name: Amazon Smile
   url: http://google.com
-  image: http://placekitten.com/g/300/200
+  image: logo-amazon.svg
