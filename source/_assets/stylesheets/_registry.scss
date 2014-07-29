@@ -5,6 +5,7 @@ section.registry {
 		text-align: center;
 		filter: grayscale(100%) opacity(.4);
 			-webkit-filter: grayscale(100%) opacity(.4);
+    position: relative;
     transition: all .25s ease;
 		&:hover {
 			background: #f9f9f9; /* Old browsers */
@@ -28,6 +29,12 @@ section.registry {
 	}
 	.registry-logo {
 		padding: 20px;
+    position: absolute;
+			top: 0;
+      right: 0;
+			bottom: 0;
+      left: 0;
+    margin: auto;
 		width: 300px;
 	}
 }
