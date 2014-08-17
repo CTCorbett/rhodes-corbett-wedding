@@ -107,10 +107,12 @@ Minify and concatenate files
 gulp.task 'build', ->
   gulp.src('index.html')
     .pipe plugins.usemin
-      css: [plugins.minifyCss(), 'concat'],
+      css: [plugins.uncss({html:'index.html'}), plugins.minifyCss(), 'concat'],
       html: [plugins.minifyHtml({empty: true})],
       js: [plugins.uglify()]
     .pipe(gulp.dest('build/'))
+
+  gulp.src('images/**/*').pipe(gulp.dest('build/images'))
 
 
 # ###
