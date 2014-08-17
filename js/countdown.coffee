@@ -8,7 +8,7 @@ $ ->
 		today = new Date()
 		deltaDate = oDate - today
 		timeAway = secondsToString(deltaDate / 1000)
-
+		countdownEl.html("FINAL COUNTDOWN: #{timeAway.days} days #{timeAway.hours} hours #{timeAway.minutes} minutes #{timeAway.seconds} seconds")
 		setTimeout updateTime, 500
 
 secondsToString = (seconds) ->
