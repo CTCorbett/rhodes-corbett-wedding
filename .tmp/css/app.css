@@ -4741,9 +4741,6 @@ body {
   font-family: 'Playfair Display', serif;
   font-size: 1.9em; }
 
-section {
-  padding: 20px inherit; }
-
 .container h1 {
   font-style: italic; }
 .container h1, .container h2, .container h3, .container h4, .container h5, .container h6 {
