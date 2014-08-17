@@ -1,0 +1,7 @@
+@function grayscale($value) {
+  @return #{ "grayscale(" + $value + ")" };
+}
+
+@function opacity($value) {
+  @return #{ "opacity(" + $value + ")" };
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+
+
+        <!-- build:css css/app.min.css -->
+        <!-- bower:css -->
+        <!-- endbower -->
+
+        <link rel="stylesheet" href="css/app.css">
+        <!-- endbuild -->
+
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <section class="top-section">
+            <div class="container">
+                <h1>{{ site.title }}</h1>
+                
+                <div class="countdown" data-date="{{ site.wedding_date | date_to_rfc822 }}">
+                    <div>FINAL COUNTDOWN: <%= timeAway.days %> days <%= timeAway.hours %> hours <%= timeAway.minutes %> minutes <%= timeAway.seconds %> seconds</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <div class="container">
+                <h2>Gallery</h2>
+            </div>
+        </section>
+
+        <section class="venue">
+            <div class="container">
+                <h3>Graciously hosted by</h3>
+                <h2>Wintergreen Woods</h2>
+            <a href="http://wintergreenwoods.com/">visit their site &raquo;</a>
+            </div>
+        </section>
+
+        <section class="directions">
+            <div class="container">
+                <h2>How To Get There</h2>
+                <div id="map"></div>
+            </div>
+        </section>
+
+        <section class="rsvp">
+            <div class="container">
+                <h2>rsvp</h2>
+            </div>
+        </section>
+
+        <section class="registry">
+            <div class="container">
+                <h2>Registries</h2>
+                {% for item in site.data.registry %}
+                    <a href="{{ item.url }}" class="col-md-4" target="_blank">
+                        <img src="{{ item.image | asset_path }}" alt="{{ item.name }}" class="registry-logo">
+                    </a>
+                {% endfor %}
+            </div>
+        </section>
+
+        <div class="copyright">
+          <div class="container">
+            Copyright Info
+            <small class="copyright-notice">
+              All third-party logos are copyright by their respective owners. All other content and images are copyright Vox Corvi Studio &copy; 2014. All rights reserved.
+            </small>
+          </div>
+        </div>
+
+
+
+
+
+
+        <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
+        <!-- build:js(./) js/vendor.min.js -->
+        <!-- bower:js -->
+        <script src="components/jquery/dist/jquery.js"></script>
+        <script src="components/gmaps/gmaps.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+        <!-- build:js js/app.min.js -->
+        <!-- inject:js -->
+        <script src="/.tmp/js/app.js"></script>
+        <script src="/.tmp/js/countdown.js"></script>
+        <script src="/.tmp/js/map.js"></script>
+        <!-- endinject -->
+        <!-- endbuild -->
+
+    </body>
+</html>

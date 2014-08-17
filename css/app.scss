@@ -1,0 +1,22 @@
+// Inject files here with a double underscore in front of them (such as __variables.scss)
+// inject:top:scss
+@import "__mixins.scss";
+@import "__variables.scss";
+// endinject
+
+// Inject files here using the command `bower install --save`
+// bower:scss
+@import "../components/bootstrap-sass-official/assets/stylesheets/bootstrap.scss";
+// endbower
+
+// Inject files here with a single underscore in front of them (such as _partial.scss)
+// inject:scss
+@import "_directions.scss";
+@import "_footer.scss";
+@import "_gallery.scss";
+@import "_global.scss";
+@import "_registry.scss";
+@import "_rsvp.scss";
+@import "_top-section.scss";
+@import "_venue.scss";
+// endinject

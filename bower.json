@@ -1,23 +1,26 @@
 {
-  "name": "rhodes-corbett-wedding",
+  "name": "rhodes-corbett-wedding-test",
   "version": "0.0.0",
-  "homepage": "https://github.com/CTCorbett/rhodes-corbett-wedding",
   "authors": [
     "Carl Henderson <chuckhendo@gmail.com>"
   ],
   "license": "MIT",
-  "private": true,
   "ignore": [
     "**/.*",
     "node_modules",
     "bower_components",
-    "components",
+    "app/_bower_components",
     "test",
     "tests"
   ],
   "dependencies": {
     "jquery": "~2.1.1",
-    "gmaps": "~0.4.14",
-    "fancybox": "~2.1.5"
+    "bootstrap-sass-official": "3.2.0+1",
+    "gmaps": "~0.4.14"
+  },
+  "overrides": {
+    "bootstrap-sass-official": {
+      "main": "assets/stylesheets/bootstrap.scss"
+    }
   }
 }
