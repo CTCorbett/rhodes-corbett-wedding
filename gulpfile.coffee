@@ -105,11 +105,11 @@ gulp.task "watch", ['setup-tmp'], ->
 Minify and concatenate files
 ###
 gulp.task 'build', ->
-  gulp.src('.tmp/index.html')
-    .pipe usemin
-      css: [minifyCss(), 'concat'],
-      html: [minifyHtml({empty: true})],
-      js: [uglify()]
+  gulp.src('index.html')
+    .pipe plugins.usemin
+      css: [plugins.minifyCss(), 'concat'],
+      html: [plugins.minifyHtml({empty: true})],
+      js: [plugins.uglify()]
     .pipe(gulp.dest('build/'))
 
 
