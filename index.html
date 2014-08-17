@@ -23,7 +23,7 @@
 
         <section class="top-section">
             <div class="container">
-                <h1>{{ site.title }}</h1>
+                <h1>Chelsea Marie Rhodes &amp; Christian Tyler Corbett</h1>
                 
                 <div class="countdown" data-date="October 04, 2014 5:00:00 PM">
                 </div>
@@ -54,17 +54,28 @@
         <section class="rsvp">
             <div class="container">
                 <h2>rsvp</h2>
+                <form action="http://getsimpleform.com/messages?form_api_token=73913f3be5ade052a6662a83b1c71af9" method="post">
+                  <!-- the redirect_to is optional, the form will redirect to the referrer on submission -->
+                  <input type='hidden' name='redirect_to' value='<the complete return url e.g. http://fooey.com/thank-you.html>' />
+                  <!-- all your input fields here.... -->
+                  <input type='text' name='name' />
+                  <input type='submit' value='RSVP' />
+                </form>
             </div>
         </section>
 
         <section class="registry">
             <div class="container">
                 <h2>Registries</h2>
-                {% for item in site.data.registry %}
-                    <a href="{{ item.url }}" class="col-md-4" target="_blank">
-                        <img src="{{ item.image | asset_path }}" alt="{{ item.name }}" class="registry-logo">
-                    </a>
-                {% endfor %}
+                <a href="https://www.bedbathandbeyond.com/store/giftregistry/view_registry_guest.jsp?registryId=541274908&eventType=Wedding&pwsurl" class="col-md-4" target="_blank">
+                    <img src="images/logo-bed-bath-beyond.png" alt="Bed Bath &amp; Beyond" class="registry-logo">
+                </a>
+                <a href="http://www.target.com/wedd/registry/lVtl5Ru-Uh1dc7nPu4vE9A" class="col-md-4" target="_blank">
+                    <img src="images/logo-target.png" alt="Target" class="registry-logo">
+                </a>
+                <a href="http://www.amazon.com/registry/wedding/230K83TUK1DWI" class="col-md-4" target="_blank">
+                    <img src="images/logo-amazon.png" alt="Amazon" class="registry-logo">
+                </a>
             </div>
         </section>
 
@@ -76,11 +87,6 @@
             </small>
           </div>
         </div>
-
-
-
-
-
 
         <script src="http://maps.google.com/maps/api/js?sensor=true"></script>
         <!-- build:js(./) js/vendor.min.js -->

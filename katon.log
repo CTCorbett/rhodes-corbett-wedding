@@ -1,0 +1,72 @@
+[katon] Starting rhodes-corbett-wedding on port: 31002 using command: gulp
+[gulp] Using gulpfile ~/Dropbox (Personal)/sites/rhodes-corbett-wedding/gulpfile.js
+[gulp] Starting 'browser-sync'...
+[gulp] Finished 'browser-sync' after 9.51 ms
+[gulp] Starting 'clean-tmp'...
+clean complete
+[gulp] Finished 'clean-tmp' after 5.5 ms
+[gulp] Starting 'setup-tmp'...
+[gulp] Starting 'bower'...
+[gulp] Finished 'bower' after 58 ms
+[gulp] Starting 'coffee'...
+[BS] Local: >>> http://localhost:31002
+[BS] External: >>> http://0.0.0.0:31002
+[BS] Serving files from: .tmp
+[BS] Serving files from: .
+
+[BS] Reloading 3 files (app.js, countdown.js, map.js)
+[gulp] Finished 'coffee' after 344 ms
+[gulp] Starting 'inject-coffee'...
+[13:01:01] gulp-inject 3 files into index.html.
+[gulp] Finished 'inject-coffee' after 191 ms
+[gulp] Starting 'inject-sass'...
+[13:01:01] gulp-inject 2 files into app.scss.
+[13:01:01] gulp-inject 8 files into app.scss.
+[gulp] Finished 'inject-sass' after 16 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 1.1 s
+[gulp] Finished 'setup-tmp' after 1.82 s
+[gulp] Starting 'watch'...
+[gulp] Starting 'bower'...
+[13:04:26] images was added
+[gulp] Finished 'bower' after 41 ms
+[gulp] Starting 'sass'...
+[13:04:26] index.html was changed
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 567 ms
+[13:08:43] index.html was changed
+[13:10:05] index.html was changed
+[13:11:26] index.html was changed
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 538 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 466 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 477 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 574 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 504 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 844 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 453 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 478 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 526 ms
+[13:21:00] index.html was changed
+[13:27:13] index.html was changed
+[13:27:26] index.html was changed
+[13:30:26] index.html was changed
+[13:31:02] index.html was changed

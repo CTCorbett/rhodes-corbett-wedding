@@ -4796,7 +4796,10 @@ section.registry {
     width: 300px; }
 
 section.venue {
-  background: #448855 url("./images/bg-venue.png") center center; }
+  background: #448855 url("../images/bg-venue.png");
+  -webkit-background-size: 105% 105%;
+          background-size: 105%;
+  background-position: center 5%; }
   section.venue h2 {
     font-style: italic; }
   section.venue h2, section.venue h3 {
