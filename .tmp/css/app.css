@@ -4730,15 +4730,15 @@ section.directions {
     color: #886677;
     display: block;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 0.6em;
-    text-align: center; }
+    font-size: 0.6em; }
 
 section.gallery {
   display: block; }
 
 body {
   font-family: 'Playfair Display', serif;
-  font-size: 1.9em; }
+  font-size: 1.9em;
+  text-align: center; }
 
 section {
   padding: 20px inherit; }
@@ -4746,8 +4746,7 @@ section {
 .container h1 {
   font-style: italic; }
 .container h1, .container h2, .container h3, .container h4, .container h5, .container h6 {
-  color: #883377;
-  text-align: center; }
+  color: #883377; }
 
 img {
   max-width: 100%; }
@@ -4756,7 +4755,6 @@ section.registry {
   background: #F0EDE5; }
   section.registry a {
     height: 150px;
-    text-align: center;
     -webkit-filter: grayscale(100%) opacity(0.4);
             filter: grayscale(100%) opacity(0.4);
     position: relative;
@@ -4791,8 +4789,7 @@ section.rsvp input[type="submit"] {
   width: 100%; }
 
 section.top-section .countdown {
-  font-size: 28px;
-  text-align: center; }
+  font-size: 28px; }
 
 section.venue {
   background: #448855 url("../images/bg-venue.png");
