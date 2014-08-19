@@ -129,3 +129,33 @@ clean complete
 [gulp] Starting 'sass'...
 [BS] Reloading 1 file (app.css)
 [gulp] Finished 'sass' after 964 ms
+[katon] Starting rhodes-corbett-wedding on port: 31002 using command: gulp
+[gulp] Using gulpfile ~/Dropbox (Personal)/sites/rhodes-corbett-wedding/gulpfile.js
+[gulp] Starting 'browser-sync'...
+[gulp] Finished 'browser-sync' after 21 ms
+[gulp] Starting 'clean-tmp'...
+clean complete
+[gulp] Finished 'clean-tmp' after 11 ms
+[gulp] Starting 'setup-tmp'...
+[gulp] Starting 'bower'...
+[BS] Local: >>> http://localhost:31002
+[BS] External: >>> http://0.0.0.0:31002
+[BS] Serving files from: .tmp
+[BS] Serving files from: .
+
+[gulp] Finished 'bower' after 774 ms
+[gulp] Starting 'coffee'...
+[BS] Reloading 3 files (app.js, countdown.js, map.js)
+[gulp] Finished 'coffee' after 6.72 s
+[gulp] Starting 'inject-coffee'...
+[10:01:05] gulp-inject 3 files into index.html.
+[gulp] Finished 'inject-coffee' after 4 s
+[gulp] Starting 'inject-sass'...
+[10:01:05] gulp-inject 2 files into app.scss.
+[10:01:05] gulp-inject 8 files into app.scss.
+[gulp] Finished 'inject-sass' after 242 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 15 s
+[gulp] Finished 'setup-tmp' after 26 s
+[gulp] Starting 'watch'...
