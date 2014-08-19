@@ -70,3 +70,62 @@ clean complete
 [13:27:26] index.html was changed
 [13:30:26] index.html was changed
 [13:31:02] index.html was changed
+[katon] Starting rhodes-corbett-wedding on port: 31002 using command: gulp
+[gulp] Using gulpfile ~/Dropbox (Personal)/sites/rhodes-corbett-wedding/gulpfile.js
+[gulp] Starting 'browser-sync'...
+[gulp] Finished 'browser-sync' after 263 ms
+[gulp] Starting 'clean-tmp'...
+[BS] Local: >>> http://localhost:31002
+[BS] External: >>> http://0.0.0.0:31002
+[BS] Serving files from: .tmp
+[BS] Serving files from: .
+
+clean complete
+[gulp] Finished 'clean-tmp' after 458 ms
+[gulp] Starting 'setup-tmp'...
+[gulp] Starting 'bower'...
+[gulp] Finished 'bower' after 1.53 s
+[gulp] Starting 'coffee'...
+[BS] Reloading 3 files (app.js, countdown.js, map.js)
+[gulp] Finished 'coffee' after 33 s
+[gulp] Starting 'inject-coffee'...
+[23:46:53] gulp-inject 3 files into index.html.
+[gulp] Finished 'inject-coffee' after 10 s
+[gulp] Starting 'inject-sass'...
+[23:46:53] gulp-inject 2 files into app.scss.
+[23:46:53] gulp-inject 8 files into app.scss.
+[gulp] Finished 'inject-sass' after 30 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 27 s
+[gulp] Finished 'setup-tmp' after 1.2 min
+[gulp] Starting 'watch'...
+[23:51:52] index.html was changed
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 1.46 s
+[23:51:54] index.html was changed
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 1.13 s
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 1.11 s
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 1.18 s
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 1.1 s
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 1.29 s
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 1.09 s
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 1.03 s
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 964 ms

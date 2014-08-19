@@ -11,7 +11,7 @@
       today = new Date();
       deltaDate = oDate - today;
       timeAway = secondsToString(deltaDate / 1000);
-      countdownEl.html("FINAL COUNTDOWN: " + timeAway.days + " days " + timeAway.hours + " hours " + timeAway.minutes + " minutes " + timeAway.seconds + " seconds");
+      countdownEl.html("" + timeAway.days + "&nbsp;days&nbsp;" + timeAway.hours + "&nbsp;hours " + timeAway.minutes + "&nbsp;minutes&nbsp;" + timeAway.seconds + "&nbsp;seconds");
       return setTimeout(updateTime, 500);
     })();
   });
