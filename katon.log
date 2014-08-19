@@ -201,3 +201,24 @@ clean complete
 [gulp] Starting 'sass'...
 [BS] Reloading 1 file (app.css)
 [gulp] Finished 'sass' after 639 ms
+[14:17:37] index.html was changed
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 899 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 815 ms
+[14:18:35] index.html was changed
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 1.06 s
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 613 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 715 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 1 s
+[14:25:49] index.html was changed

@@ -4738,7 +4738,7 @@ section.gallery {
 body {
   background: #442233;
   font-family: 'Playfair Display', serif;
-  font-size: 1.9em;
+  font-size: 1.7em;
   text-align: center; }
 
 section {
@@ -4790,6 +4790,11 @@ section.rsvp {
   background: #FFF; }
   section.rsvp input[type="submit"] {
     width: 100%; }
+  section.rsvp .label-caption {
+    color: #999;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-weight: 300; }
 
 section.top-section {
   background: #FFF; }
