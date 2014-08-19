@@ -186,3 +186,18 @@ clean complete
 [gulp] Finished 'sass' after 934 ms
 [13:56:43] index.html was changed
 [13:56:47] index.html was changed
+[14:00:17] index.html was changed
+[14:00:25] index.html was changed
+[14:00:30] index.html was changed
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 1.08 s
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 526 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 480 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 639 ms

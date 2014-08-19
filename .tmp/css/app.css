@@ -4736,6 +4736,7 @@ section.gallery {
   display: block; }
 
 body {
+  background: #442233;
   font-family: 'Playfair Display', serif;
   font-size: 1.9em;
   text-align: center; }
@@ -4785,11 +4786,15 @@ section.registry {
     margin: auto;
     width: 300px; }
 
-section.rsvp input[type="submit"] {
-  width: 100%; }
+section.rsvp {
+  background: #FFF; }
+  section.rsvp input[type="submit"] {
+    width: 100%; }
 
-section.top-section .countdown {
-  font-size: 28px; }
+section.top-section {
+  background: #FFF; }
+  section.top-section .countdown {
+    font-size: 28px; }
 
 section.venue {
   background: #448855 url("../images/bg-venue.png");
