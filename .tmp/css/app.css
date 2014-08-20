@@ -4730,7 +4730,7 @@ section.directions {
     color: #886677;
     display: block;
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 0.6em; }
+    font-size: 0.8em; }
 
 section.gallery {
   display: block; }
@@ -4747,7 +4747,8 @@ section {
 .container h1 {
   font-style: italic; }
 .container h1, .container h2, .container h3, .container h4, .container h5, .container h6 {
-  color: #883377; }
+  color: #883377;
+  margin-bottom: 20px; }
 
 img {
   max-width: 100%; }
@@ -4788,13 +4789,48 @@ section.registry {
 
 section.rsvp {
   background: #FFF; }
-  section.rsvp input[type="submit"] {
-    width: 100%; }
-  section.rsvp .label-caption {
-    color: #999;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: italic;
-    font-weight: 300; }
+  section.rsvp form {
+    text-align: left; }
+    section.rsvp form input {
+      margin-bottom: 20px; }
+    section.rsvp form input[type="text"] {
+      border: 1px solid #CCC;
+      -webkit-border-radius: 4px;
+              border-radius: 4px;
+      font-weight: 300;
+      height: 44px;
+      margin-top: 10px;
+      padding-left: 10px;
+      width: 100%; }
+    section.rsvp form input[type="radio"] {
+      margin-right: 10px;
+      vertical-align: top; }
+    section.rsvp form input[type="submit"] {
+      background: -webkit-gradient(linear, left top, left bottom, from(#F9F9F9), color-stop(50%, #F9F9F9), to(#e6e6e6));
+      background: -webkit-linear-gradient(top, #F9F9F9 0%, #F9F9F9 50%, #e6e6e6 100%);
+      background: -o-linear-gradient(top, #F9F9F9 0%, #F9F9F9 50%, #e6e6e6 100%);
+      background: linear-gradient(to bottom, #F9F9F9 0%, #F9F9F9 50%, #e6e6e6 100%);
+      /* W3C */
+      border: none;
+      -webkit-border-radius: 4px;
+              border-radius: 4px;
+      -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 3px 12px 3px rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 3px 12px 3px rgba(0, 0, 0, 0);
+      font-weight: bold;
+      height: 44px;
+      letter-spacing: 0.1em;
+      -webkit-transition: all 0.25s ease;
+           -o-transition: all 0.25s ease;
+              transition: all 0.25s ease;
+      width: 100%; }
+      section.rsvp form input[type="submit"]:hover {
+        background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), color-stop(50%, #FFFFFF), to(#EBEBEB));
+        background: -webkit-linear-gradient(top, #FFFFFF 0%, #FFFFFF 50%, #EBEBEB 100%);
+        background: -o-linear-gradient(top, #FFFFFF 0%, #FFFFFF 50%, #EBEBEB 100%);
+        background: linear-gradient(to bottom, #FFFFFF 0%, #FFFFFF 50%, #EBEBEB 100%);
+        /* W3C */
+        -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08), 0 3px 12px 3px rgba(0, 0, 0, 0.1);
+                box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08), 0 3px 12px 3px rgba(0, 0, 0, 0.1); }
 
 section.top-section {
   background: #FFF; }
