@@ -4834,6 +4834,10 @@ section.rsvp {
         /* W3C */
         -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08), 0 3px 12px 3px rgba(0, 0, 0, 0.1);
                 box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.08), 0 3px 12px 3px rgba(0, 0, 0, 0.1); }
+  section.rsvp .msg {
+    visibility: hidden; }
+    section.rsvp .msg.show {
+      visibility: visible; }
 
 section.top-section {
   background: #FFF; }

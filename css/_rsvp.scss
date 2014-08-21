@@ -35,4 +35,10 @@ section.rsvp {
       }
     }
   }
+  .msg {
+    visibility: hidden;
+    &.show {
+      visibility: visible;
+    }
+  }
 }
