@@ -8,6 +8,7 @@ section.rsvp {
     input[type="text"] {
       border: 1px solid #CCC;
       border-radius: 4px;
+      box-sizing: border-box;
       font-weight: 300;
       height: 44px;
       margin-top: 10px;
