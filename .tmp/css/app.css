@@ -4848,6 +4848,9 @@ section.rsvp {
 
 section.top-section {
   background: #FFF; }
+  section.top-section h1 {
+    font-size: 1.6em;
+    line-height: 1.7em; }
   section.top-section .countdown {
     font-size: 28px; }
 
