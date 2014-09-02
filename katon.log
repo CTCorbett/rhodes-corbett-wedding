@@ -615,3 +615,253 @@ clean complete
 [gulp] Starting 'sass'...
 [BS] Reloading 1 file (app.css)
 [gulp] Finished 'sass' after 1.28 s
+[katon] Starting rhodes-corbett-wedding on port: 31002 using command: gulp
+[gulp] Using gulpfile ~/Dropbox (Personal)/sites/rhodes-corbett-wedding/gulpfile.js
+[gulp] Starting 'browser-sync'...
+[gulp] Finished 'browser-sync' after 62 ms
+[gulp] Starting 'clean-tmp'...
+clean complete
+[gulp] Finished 'clean-tmp' after 5.52 ms
+[gulp] Starting 'setup-tmp'...
+[gulp] Starting 'bower'...
+[BS] Local: >>> http://localhost:31002
+[BS] External: >>> http://0.0.0.0:31002
+[BS] Serving files from: .tmp
+[BS] Serving files from: .
+
+[gulp] Finished 'bower' after 659 ms
+[gulp] Starting 'coffee'...
+[BS] Reloading 4 files (app.js, countdown.js, form.js, map.js)
+[gulp] Finished 'coffee' after 8.82 s
+[gulp] Starting 'inject-coffee'...
+[18:21:31] gulp-inject 4 files into index.html.
+[gulp] Finished 'inject-coffee' after 4.58 s
+[gulp] Starting 'inject-sass'...
+[18:21:31] gulp-inject 2 files into app.scss.
+[18:21:31] gulp-inject 8 files into app.scss.
+[gulp] Finished 'inject-sass' after 31 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 16 s
+[gulp] Finished 'setup-tmp' after 30 s
+[gulp] Starting 'watch'...
+[katon] Starting rhodes-corbett-wedding on port: 31002 using command: gulp
+[gulp] Using gulpfile ~/Dropbox (Personal)/sites/rhodes-corbett-wedding/gulpfile.js
+[gulp] Starting 'browser-sync'...
+[gulp] Finished 'browser-sync' after 16 ms
+[gulp] Starting 'clean-tmp'...
+clean complete
+[gulp] Finished 'clean-tmp' after 64 ms
+[gulp] Starting 'setup-tmp'...
+[gulp] Starting 'bower'...
+[BS] Local: >>> http://localhost:31002
+[BS] External: >>> http://0.0.0.0:31002
+[BS] Serving files from: .tmp
+[BS] Serving files from: .
+
+[gulp] Finished 'bower' after 1.02 s
+[gulp] Starting 'coffee'...
+[BS] Reloading 4 files (app.js, countdown.js, form.js, map.js)
+[gulp] Finished 'coffee' after 9.27 s
+[gulp] Starting 'inject-coffee'...
+[20:21:32] gulp-inject 4 files into index.html.
+[gulp] Finished 'inject-coffee' after 5.01 s
+[gulp] Starting 'inject-sass'...
+[20:21:32] gulp-inject 2 files into app.scss.
+[20:21:32] gulp-inject 8 files into app.scss.
+[gulp] Finished 'inject-sass' after 34 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 18 s
+[gulp] Finished 'setup-tmp' after 33 s
+[gulp] Starting 'watch'...
+[20:40:22] index.html was changed
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 703 ms
+[20:40:23] index.html was changed
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 590 ms
+[20:46:52] index.html was changed
+[20:47:01] index.html was changed
+[20:48:06] index.html was changed
+[20:49:33] index.html was changed
+[20:58:58] index.html was changed
+[katon] Starting rhodes-corbett-wedding on port: 31002 using command: gulp
+[gulp] Using gulpfile ~/Dropbox (Personal)/sites/rhodes-corbett-wedding/gulpfile.js
+[gulp] Starting 'browser-sync'...
+[gulp] Finished 'browser-sync' after 320 ms
+[gulp] Starting 'clean-tmp'...
+[BS] Local: >>> http://localhost:31002
+[BS] External: >>> http://0.0.0.0:31002
+[BS] Serving files from: .tmp
+[BS] Serving files from: .
+
+clean complete
+[gulp] Finished 'clean-tmp' after 789 ms
+[gulp] Starting 'setup-tmp'...
+[gulp] Starting 'bower'...
+[gulp] Finished 'bower' after 563 ms
+[gulp] Starting 'coffee'...
+[BS] Reloading 4 files (app.js, countdown.js, form.js, map.js)
+[gulp] Finished 'coffee' after 13 s
+[gulp] Starting 'inject-coffee'...
+[19:05:11] gulp-inject 4 files into index.html.
+[gulp] Finished 'inject-coffee' after 10 s
+[gulp] Starting 'inject-sass'...
+[19:05:11] gulp-inject 2 files into app.scss.
+[19:05:11] gulp-inject 8 files into app.scss.
+[gulp] Finished 'inject-sass' after 64 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 32 s
+[gulp] Finished 'setup-tmp' after 55 s
+[gulp] Starting 'watch'...
+[katon] Starting rhodes-corbett-wedding on port: 31002 using command: gulp
+[gulp] Using gulpfile ~/Dropbox (Personal)/sites/rhodes-corbett-wedding/gulpfile.js
+[gulp] Starting 'browser-sync'...
+[gulp] Finished 'browser-sync' after 232 ms
+[gulp] Starting 'clean-tmp'...
+[BS] Local: >>> http://localhost:31002
+[BS] External: >>> http://0.0.0.0:31002
+[BS] Serving files from: .tmp
+[BS] Serving files from: .
+
+clean complete
+[gulp] Finished 'clean-tmp' after 311 ms
+[gulp] Starting 'setup-tmp'...
+[gulp] Starting 'bower'...
+[gulp] Finished 'bower' after 824 ms
+[gulp] Starting 'coffee'...
+[BS] Reloading 4 files (app.js, countdown.js, form.js, map.js)
+[gulp] Finished 'coffee' after 36 s
+[gulp] Starting 'inject-coffee'...
+[23:10:12] gulp-inject 4 files into index.html.
+[gulp] Finished 'inject-coffee' after 13 s
+[gulp] Starting 'inject-sass'...
+[23:10:12] gulp-inject 2 files into app.scss.
+[23:10:12] gulp-inject 8 files into app.scss.
+[gulp] Finished 'inject-sass' after 84 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 25 s
+[gulp] Finished 'setup-tmp' after 1.25 min
+[gulp] Starting 'watch'...
+[katon] Starting rhodes-corbett-wedding on port: 31002 using command: gulp
+[gulp] Using gulpfile ~/Dropbox (Personal)/sites/rhodes-corbett-wedding/gulpfile.js
+[gulp] Starting 'browser-sync'...
+[gulp] Finished 'browser-sync' after 11 ms
+[gulp] Starting 'clean-tmp'...
+clean complete
+[gulp] Finished 'clean-tmp' after 6.78 ms
+[gulp] Starting 'setup-tmp'...
+[gulp] Starting 'bower'...
+[BS] Local: >>> http://localhost:31002
+[BS] External: >>> http://0.0.0.0:31002
+[BS] Serving files from: .tmp
+[BS] Serving files from: .
+
+[gulp] Finished 'bower' after 123 ms
+[gulp] Starting 'coffee'...
+[BS] Reloading 4 files (app.js, countdown.js, form.js, map.js)
+[gulp] Finished 'coffee' after 719 ms
+[gulp] Starting 'inject-coffee'...
+[21:14:46] gulp-inject 4 files into index.html.
+[gulp] Finished 'inject-coffee' after 256 ms
+[gulp] Starting 'inject-sass'...
+[21:14:46] gulp-inject 2 files into app.scss.
+[21:14:46] gulp-inject 8 files into app.scss.
+[gulp] Finished 'inject-sass' after 51 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 1.65 s
+[gulp] Finished 'setup-tmp' after 2.93 s
+[gulp] Starting 'watch'...
+[21:33:30] index.html was changed
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 730 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 823 ms
+[21:35:59] index.html was changed
+[21:37:35] index.html was changed
+[21:39:02] index.html was changed
+[21:44:48] index.html was changed
+[21:45:51] index.html was changed
+[21:46:14] index.html was changed
+[21:46:52] index.html was changed
+[21:47:01] index.html was changed
+[21:47:11] index.html was changed
+[21:48:20] index.html was changed
+[21:48:52] index.html was changed
+[21:49:01] index.html was changed
+[21:50:35] index.html was changed
+[21:50:51] index.html was changed
+[21:50:53] index.html was changed
+[21:51:57] index.html was changed
+[21:53:28] index.html was changed
+[21:53:57] index.html was changed
+[22:00:17] index.html was changed
+[22:09:46] index.html was changed
+[22:10:23] index.html was changed
+[22:11:14] index.html was changed
+[22:26:28] index.html was changed
+[22:26:30] index.html was changed
+[gulp] Starting 'inject-sass'...
+[22:27:25] gulp-inject 2 files into app.scss.
+[22:27:25] gulp-inject 9 files into app.scss.
+[gulp] Finished 'inject-sass' after 40 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 788 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 805 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 765 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 1.15 s
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 1.11 s
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 684 ms
+[23:01:53] index.html was changed
+[23:07:07] index.html was changed
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 802 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 958 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 759 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 940 ms
+[23:09:40] index.html was changed
+[23:09:50] index.html was changed
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 895 ms
+[23:16:54] index.html was changed
+[23:18:19] index.html was changed
+[23:18:37] index.html was changed
+[23:20:04] index.html was changed
+[23:20:48] index.html was changed
+[23:21:14] index.html was changed
+[23:21:17] index.html was changed
+[23:21:29] index.html was changed
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 835 ms
+[gulp] Starting 'sass'...
+[BS] Reloading 1 file (app.css)
+[gulp] Finished 'sass' after 758 ms
+[23:27:32] index.html was changed

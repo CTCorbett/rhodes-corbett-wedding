@@ -4717,6 +4717,7 @@ button.close {
     display: none !important; } }
 
 section.directions {
+  background: #F0EDE5;
   display: block; }
   section.directions #map {
     height: 300px;
@@ -4752,6 +4753,12 @@ section {
 
 img {
   max-width: 100%; }
+
+section.hotel {
+  background: #F6F6F6;
+  display: block; }
+  section.hotel .amenities {
+    text-align: left; }
 
 section.registry {
   background: #F0EDE5; }
